@@ -1,9 +1,15 @@
-# magento2-exercises
-Exercises for the Test Driven Magento course
+# Test Driven Magento: Exercises
+
+Exercises for the Test Driven Magento course. The exercise descriptions are in the [Wiki](https://github.com/tddwizard/magento2-exercises/wiki)
+
+## TDD Katas
+
+To get started with TDD Katas (not Magento), refer to this tutorial: [Get Ready for TDD Katas with PHPUnit + PhpStorm
+](https://www.schmengler-se.de/en/2017/01/get-ready-for-tdd-katas-with-phpunit-phpstorm/)
 
 ## Docker Dev Environment
 
-If you use Docker, a dev environment which is suitable for tests, can be created as follows:
+If you use Docker, a Magento 2 dev environment which is suitable for tests, can be created as follows:
 
 1. Install Magento via composer
 

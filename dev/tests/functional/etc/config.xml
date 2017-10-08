@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="config.xsd">
+    <application>
+        <reopenBrowser>testCase</reopenBrowser>
+        <backendLogin>admin</backendLogin>
+        <backendPassword>enAVINa2</backendPassword>
+        <appBackendUrl>http://www.magento.lh/management/</appBackendUrl>
+        <backendLoginUrl>admin/auth/login</backendLoginUrl>
+    </application>
+    <isolation>
+        <resetUrlPath>dev/tests/functional/isolation.php</resetUrlPath>
+        <testSuite>none</testSuite>
+        <testCase>none</testCase>
+        <test>none</test>
+    </isolation>
+    <install>
+        <host>www.magento.lh</host>
+        <user>admin</user>
+        <password>enAVINa2</password>
+        <dbName>magento_functional_tests</dbName>
+        <baseUrl>http://www.magento.lh/</baseUrl>
+        <backendName>management</backendName>
+    </install>
+    <server>
+        <item name="selenium" type="default" browser="Mozilla Firefox" browserName="firefox" host="172.20.0.8"
+              port="4444" seleniumServerRequestsTimeout="90" sessionStrategy="shared">
+            <desiredCapabilities>
+                <platform>ANY</platform>
+            </desiredCapabilities>
+        </item>
+    </server>
+    <handler>
+        <webapi priority="0">
+            <token>w13qvo0pcwildt8urh0aotmeilxx4s7j</token>
+        </webapi>
+        <curl priority="1"/>
+        <ui priority="2"/>
+    </handler>
+</config>

@@ -23,4 +23,8 @@ If you use Docker, a Magento 2 dev environment which is suitable for tests, can 
 
     More info: https://github.com/tddwizard/magento2-dockerized
 
-3. Copy the files from `dev` in this repository into `dev` of your Magento installation
+3. Install the test configuration for the exercises:
+ 
+       composer require tddwizard/magento2-exercises:@dev
+       
+    Or download and copy the files from `dev` in this repository manually into `dev` of your Magento installation

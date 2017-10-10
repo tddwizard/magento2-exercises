@@ -15,7 +15,7 @@ If you use Docker, a Magento 2 dev environment which is suitable for tests, can 
 
        composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition <installation directory name> --ignore-platform-reqs
        
-   More info: http://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator\_install\_ce.html
+   More info: http://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install_ce.html
 
 2. Install the dockerize-magento2 component
 

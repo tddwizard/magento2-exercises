@@ -1,0 +1,35 @@
+{
+  "name": "tddwizard/magento2-exercises",
+  "description": "Test configuration files for magento2-dockerized setup and the Test Driven Magento exercises",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Fabian Schmengler",
+      "email": "fabian@schmengler-se.de",
+      "homepage": "https://www.schmengler-se.de",
+      "role": "Author"
+    }
+  ],
+  "type": "magento2-component",
+  "homepage": "https://github.com/tddwizard/magento2-exercises",
+  "extra": {
+    "map": [
+      [
+        "dev/tests/integration/phpunit.xml",
+        "dev/tests/integration/phpunit.xml"
+      ],
+      [
+        "dev/tests/integration/etc/install-config-mysql.php",
+        "dev/tests/integration/etc/install-config-mysql.php"
+      ],
+      [
+        "dev/tests/functional/phpunit.xml",
+        "dev/tests/functional/phpunit.xml"
+      ],
+      [
+        "dev/tests/functional/etc/config.xml",
+        "dev/tests/functional/etc/config.xml"
+      ]
+    ]
+  }
+}

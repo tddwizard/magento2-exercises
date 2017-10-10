@@ -13,13 +13,13 @@ If you use Docker, a Magento 2 dev environment which is suitable for tests, can 
 
 1. Install Magento via composer
 
-       composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition <installation directory name>
+       composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition <installation directory name> --ignore-platform-reqs
        
    More info: http://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator\_install\_ce.html
 
 2. Install the dockerize-magento2 component
 
-       composer require --ignore-platform-reqs tddwizard/magento2-dockerized
+       composer require --ignore-platform-reqs tddwizard/magento2-dockerized:@dev
 
     More info: https://github.com/tddwizard/magento2-dockerized
 

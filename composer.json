@@ -35,5 +35,9 @@
         "dev/tests/functional/etc/config.xml"
       ]
     ]
+  },
+  "require": {
+    "tddwizard/exercise-contact": "dev-master@dev",
+    "tddwizard/exercise-brands": "dev-master@dev"
   }
 }

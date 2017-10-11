@@ -27,6 +27,10 @@
         "dev/tests/functional/phpunit.xml"
       ],
       [
+        "dev/tests/unit/phpunit.xml",
+        "dev/tests/unit/phpunit.xml"
+      ],
+      [
         "dev/tests/functional/etc/config.xml",
         "dev/tests/functional/etc/config.xml"
       ]
